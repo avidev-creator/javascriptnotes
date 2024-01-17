@@ -33,3 +33,4 @@ objTwo.fname = "Anshul"
 console.log(`First name of objOne is : ${objOne.fname}`);
 console.log(`First name of objTwo is : ${objTwo.fname}`);
 
+// Take a look at the memory diagram attached in repositry
