@@ -17,7 +17,7 @@ symbol => unique value example figma
 */
 
 /* Other Data Type -- 
-Object
+Array, Object And Function
 */
 
 console.log(typeof null) // Object
