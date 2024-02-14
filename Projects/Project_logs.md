@@ -2,7 +2,7 @@
 
                         
                         
-                        ## 1. Color Changer Project --
+                        ## Color Changer Project --
 
 
     Here we will learn about how we can grab a DOM element and change the background color.
