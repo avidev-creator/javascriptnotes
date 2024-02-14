@@ -1,9 +1,0 @@
-# This is a project where we will keep all the projects basics details.
-
-# If you want you can just come here and check the details of what we will be creating in this project and start thinking about it.
-
-
-01. Color Changer Project -- 
-
-  This is a a simple project where we grab DOM elements and try to change the style of the whole page. 
-  This also gives you a small idea about Event Listeners in Javascript.
