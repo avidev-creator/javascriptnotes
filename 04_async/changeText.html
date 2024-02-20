@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async Practice</title>
+  </head>
+  <body>
+    <h1>AVINASH</h1>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    const changeText = () => {
+      document.querySelector("h1").innerHTML = "Changed";
+    };
+
+    const changeMe = setTimeout(changeText, 2000);
+
+    const Stop = document.querySelector("#stop");
+    Stop.addEventListener("click", () => {
+      clearTimeout(changeMe);
+    });
+  </script>
+</html>

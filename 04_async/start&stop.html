@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML And Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    const sayDate = function (str) {
+      console.log(str, Date.now());
+    };
+    let intervalId;
+    const Start = document
+      .getElementById("start")
+      .addEventListener("click", () => {
+        intervalId = setInterval(sayDate, 1000, "Hello");
+      });
+    const Stop = document
+      .getElementById("stop")
+      .addEventListener("click", () => {
+        clearInterval(intervalId);
+      });
+  </script>
+</html>
