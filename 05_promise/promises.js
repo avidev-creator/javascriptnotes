@@ -83,3 +83,14 @@ async function consumePromiseFive() {
 }
 
 consumePromiseFive();
+
+// Running Fetch Directly -- 
+
+fetch('https://api.github.com/users/avidev-creator')
+.then((response) => {
+    return response.json()
+})
+.then((data) => {
+    console.log(data);
+})
+.catch((error) => console.log(error))
